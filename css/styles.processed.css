@@ -11451,7 +11451,7 @@ iframe.uk-cover {
   display: block;
 }
 
-body {
+html {
   background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/1488098/MK.gif") no-repeat center center fixed;
   background-size: cover;
 }
@@ -11460,17 +11460,66 @@ h1 {
   text-transform: uppercase;
   font-family: "Futura", san-serif;
   font-weight: bold;
+  color: #F9DED3;
+  margin: 30px 0 0 0px;
+  font-size: 4em;
 }
 
 video {
   width: 20%;
 }
 
-h3 {
+ul {
+  list-style: none;
+}
+
+.cast {
+  border: 3px solid #89ABB4;
+  margin: 2px 0px 2px 0px;
+}
+
+h2 {
+  text-transform: uppercase;
   font-family: 'futura';
   font-weight: medium;
+  color: #FAB4B6;
 }
 
 article p {
   font-family: 'Futura', san-serif;
+  color: #FDD1B6;
+}
+
+.director {
+  color: #FDD1B6;
+}
+
+.director:hover {
+  color: #89ABB4;
+}
+
+span.mejs__currenttime {
+  color: #89ABB4;
+  font-family: Futura, serif;
+}
+
+span.mejs__duration {
+  color: #89ABB4;
+  font-family: Futura, san-serif;
+}
+
+.uk-overlay-default {
+  margin: 0 3px 5px 3px;
+  padding: 15px 10px 13px 10px;
+}
+
+aside p {
+  font-size: 1.2em;
+  color: #89ABB4;
+  font-family: futura, san-serif;
+  font-weight: bold;
+}
+
+footer {
+  color: white;
 }
